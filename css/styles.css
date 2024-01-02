@@ -8,6 +8,25 @@ a{
 }
 ul, ol{
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+    border-bottom: 1px solid #E7E9FC;
+    background: #FFF;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    align-items: center;
 }
 .logo {
 color: #4D5AE5;
@@ -17,9 +36,14 @@ font-weight: 700;
 line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
 }
 .logo-part {
     color: #2E2F42;
+}
+.nav-list{
+    display: flex;
+    gap: 40px;
 }
 .nav-link {
 color: #2E2F42;
@@ -27,6 +51,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding: 24px 0;
+display: block;
 }
 .nav-link:hover,
 .nav-link:focus{
@@ -34,6 +60,11 @@ letter-spacing: 0.02em;
 }
 .address {
     font-style: normal;
+    margin-left: auto;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 .address-link {
 color: #434455;
