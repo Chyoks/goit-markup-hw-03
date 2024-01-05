@@ -166,6 +166,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
+padding-bottom: 32px;
 }
 .team-list {
 display: flex;
@@ -180,6 +181,9 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 padding-top: 120px;
+padding-bottom: 72px;
+text-align: center;
+
 }
 .section-third{
     background: #F4F4FD;
@@ -187,8 +191,7 @@ padding-top: 120px;
 }
 .section-third-line {
     background-color: #FFFFFF;
-    padding-bottom: 32px;
-    width: 264px;
+        width: 264px;
     height: 380px;
     border-radius: 0px 0px 4px 4px;
     margin: 0 auto;
@@ -197,6 +200,12 @@ padding-top: 120px;
     display: flex;
     flex-wrap: wrap;
     gap: 32px 24px;
+    padding-bottom: 120px;
+}
+.our-portfolio {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 .section-fourth-line {
 border: 1px solid  #E7E9FC;
@@ -204,6 +213,15 @@ background: #FFF;
 width: 360px;
 height: 420px;
 }
+.skill-title-fourth {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+.section-skill-par-fourth {
+    padding-bottom: 32px;
+    padding-left: 16px;
+    }
 .img-fourth {
     margin: 0 auto;
 }
@@ -211,10 +229,25 @@ height: 420px;
     background-color: #2E2F42;
     color: #F4F4FD;
 }
+.logo-down {
+    color: #4D5AE5;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+display: flex;
+padding: 100px 1169px 18px 156px;
+}
 .logo-part-footer{
     color: #F4F4FD;
+   
 }
 .footer-par{
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: block;
+    width: 264px;
+    padding: 0 1020px 100px 156px;
 }
