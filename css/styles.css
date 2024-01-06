@@ -87,10 +87,11 @@ color: #404BBF;
 }
 
 .section-first {
-    padding: 188px 472px 188px 472px;
+    padding: 188px 0 188px;
     background-color: #2E2F42;
     margin: 0 auto;
     margin-bottom: 150px;
+   
    
 }
 .title {
@@ -114,10 +115,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 border-radius: 4px;
-display: flex;
+display: block;
+min-width: 169px;
+height: 56px;
 padding: 16px 32px;
 margin: 0 auto;
 margin-top: 48px;
+border: none;
 
 }
 .button-first:hover,
@@ -128,12 +132,14 @@ background-color: #404BBF;
     margin-left: 156px;
     margin-right: 156px;
     margin-bottom: 156px;
+    padding: 120px 0 120px;
+    
 }
 .skill {
-    padding-top: ;
     display: flex;
     gap: 24px;
     align-items: center;
+    
     
 }
 .skill-title {
@@ -143,11 +149,9 @@ font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.02em;
 display: flex;
-padding-bottom: 8px;
 margin: 0 auto;
 margin-bottom: 8px;
 text-align: center;
-
 width: 232px;
 flex-direction: column;
 justify-content: center;
@@ -156,7 +160,8 @@ gap: 8px;
 }
 
 .skill-items {
-    width: 264px;  
+ width: calc((100% - 72px) / 4);
+     
 
 }
 .section-skill-par {
@@ -181,17 +186,20 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 padding-top: 120px;
-padding-bottom: 72px;
+margin-bottom: 72px;
 text-align: center;
 
 }
 .section-third{
     background: #F4F4FD;
-    padding-bottom: 120px;
+    padding: 120px 0;
+}
+.div-section-third {
+    padding: 32px 0;
 }
 .section-third-line {
     background-color: #FFFFFF;
-        width: 264px;
+    width: calc((100% - 72px) / 4); 
     height: 380px;
     border-radius: 0px 0px 4px 4px;
     margin: 0 auto;
@@ -201,22 +209,31 @@ text-align: center;
     flex-wrap: wrap;
     gap: 32px 24px;
     padding-bottom: 120px;
+    row-gap: 48px;
+}
+.section-fourth {
+    padding: 120px 0 120px 0;
 }
 .our-portfolio {
     text-align: center;
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .section-fourth-line {
 border: 1px solid  #E7E9FC;
 background: #FFF;
-width: 360px;
 height: 420px;
+width: calc((100% - 48px) / 3);
+}
+.div-section-fourth {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
 }
 .skill-title-fourth {
-    padding-top: 32px;
-    padding-bottom: 8px;
-    padding-left: 16px;
+       padding-top: 32px;
+     padding-left: 16px;
+    margin-bottom: 8px
 }
 .section-skill-par-fourth {
     padding-bottom: 32px;
@@ -228,6 +245,7 @@ height: 420px;
 .footer{
     background-color: #2E2F42;
     color: #F4F4FD;
+    padding: 100px 0;
 }
 .logo-down {
     color: #4D5AE5;
@@ -237,8 +255,9 @@ font-weight: 700;
 line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
-display: flex;
 padding: 100px 1169px 18px 156px;
+display: inline-block;
+margin-bottom: 16px; 
 }
 .logo-part-footer{
     color: #F4F4FD;
@@ -248,6 +267,6 @@ padding: 100px 1169px 18px 156px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: block;
-    width: 264px;
     padding: 0 1020px 100px 156px;
+    max-width: 264px
 }
