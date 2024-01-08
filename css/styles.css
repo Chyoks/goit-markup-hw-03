@@ -87,7 +87,7 @@ color: #404BBF;
 }
 
 .section-first {
-    padding: 188px 0 188px;
+    padding: 188px 0;
     background-color: #2E2F42;
     margin: 0 auto;
     margin-bottom: 150px;
@@ -141,6 +141,9 @@ background-color: #404BBF;
     align-items: center;
     
     
+}
+.skill-header {
+ visibility: hidden; 
 }
 .skill-title {
  color: #2E2F42;
