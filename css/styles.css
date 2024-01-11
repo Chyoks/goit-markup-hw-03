@@ -235,6 +235,7 @@ text-align: center;
 border: 1px solid  #E7E9FC;
 background: #FFF;
 height: 420px;
+width: calc((100% - 48px) / 3)
 
 }
 .div-section-fourth {
