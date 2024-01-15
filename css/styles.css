@@ -219,8 +219,13 @@ text-align: center;
 }
 .our-portfolio {
     text-align: center;
-    padding-top: 120px;
     margin-bottom: 72px;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+text-transform: capitalize;
 }
 .section-fourth-line {
 width: calc((100% - 48px) / 3);
@@ -230,12 +235,10 @@ width: calc((100% - 48px) / 3);
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
     border-top: none;
-    width: calc((100% - 48px) / 3);
      }
 .skill-title-fourth {
     margin-bottom: 8px;
-    color: var(--NAVY-BLUE, #2E2F42);
-text-align: center;
+    color: #2E2F42 ;
 font-family: Roboto;
 font-size: 20px;
 font-style: normal;
