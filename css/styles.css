@@ -90,7 +90,6 @@ color: #404BBF;
     padding: 188px 0;
     background-color: #2E2F42;
     margin: 0 auto;
-    margin-bottom: 150px;
    
    
 }
@@ -129,12 +128,10 @@ border: none;
 background-color: #404BBF;
 }
 .section-second {
-    margin-left: 156px;
-    margin-right: 156px;
-    margin-bottom: 156px;
     padding: 120px 0 120px;
+}    
     
-}
+
 .skill {
     display: flex;
     gap: 24px;
@@ -160,11 +157,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.02em;
-display: flex;
-margin: 0 auto;
 margin-bottom: 8px;
-text-align: center;
-width: 232px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
@@ -182,8 +175,6 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: center;
-padding-bottom: 32px;
 }
 .team-list {
 display: flex;
@@ -197,7 +188,6 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-top: 120px;
 margin-bottom: 72px;
 text-align: center;
 
@@ -208,6 +198,7 @@ text-align: center;
 }
 .div-section-third {
     padding: 32px 0;
+    text-align: center;
 }
 .section-third-line {
     background-color: #FFFFFF;
@@ -232,10 +223,7 @@ text-align: center;
     margin-bottom: 72px;
 }
 .section-fourth-line {
-border: 1px solid  #E7E9FC;
-background: #FFF;
-height: 420px;
-width: calc((100% - 48px) / 3)
+width: calc((100% - 48px) / 3);
 
 }
 .div-section-fourth {
@@ -243,15 +231,22 @@ width: calc((100% - 48px) / 3)
     border: 1px solid #e7e9fc; 
     border-top: none;
     width: calc((100% - 48px) / 3);
-}
+     }
 .skill-title-fourth {
-       padding-top: 32px;
-     padding-left: 16px;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+text-transform: capitalize;
+font-weight: 500;
 }
 .section-skill-par-fourth {
-    padding-bottom: 32px;
-    padding-left: 16px;
+   
     }
 .img-fourth {
     margin: 0 auto;
@@ -269,7 +264,6 @@ font-weight: 700;
 line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
-padding: 100px 1169px 18px 156px;
 display: inline-block;
 margin-bottom: 16px; 
 }
@@ -281,6 +275,5 @@ margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: block;
-    padding: 0 1020px 100px 156px;
-    max-width: 264px
+    max-width: 264px;
 }
